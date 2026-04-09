@@ -20,7 +20,7 @@ In this article you'll find out:
 
 If Movie Maker isn't already visible, you can toggle it in the View menu.
 
-[sbox-dev_xERW1ujnPd.mp4 2098x1076](./images/fe0e9321-d2d7-45d7-957b-552c67212c72.png)
+[sbox-dev_xERW1ujnPd.mp4 2098x1076](./images/sbox-dev-xerw1ujnpd.mp4)
 
 It should fit nicely as a tab in the lower panel if you dock it there.
 
@@ -29,7 +29,7 @@ It should fit nicely as a tab in the lower panel if you dock it there.
 
 To edit and preview movies, you'll need a Movie Player component somewhere in your scene. Movie Players decide which objects in the scene should be animated by a particular movie, and control the current playback position.
 
-##  ![](./images/9e4b8702-9b7f-4d86-8bb5-bc2c41ce4d16.png "right-50 =528x369")Creating a Movie Player
+##  ![](./images/movie-player.png "right-50 =528x369")Creating a Movie Player
 
 If you don't have any Movie Players in the current scene, you should see a big button to create one.
 
@@ -41,7 +41,7 @@ You can also add one to a GameObject in the Inspector like any other Component.
 
 Movies can either be embedded inside a Movie Player, or saved as a *.movie* asset.
 
-## Saving & Loading ![](./images/7e86e92d-5f63-4e02-ad0b-08525842d54c.png "left-50 =486x351")
+## Saving & Loading ![](./images/movie-resources.png "left-50 =486x351")
 
 New movies will be embedded in the current Movie Player by default. You can save them as reusable .movie files, or embed a copy of the currently edited .movie, with the File menu.
 
@@ -74,17 +74,17 @@ This track references blocks of time from another movie, helping you organize an
 
 Reference and property tracks can be created by dragging from the hierarchy or inspector into the track list.
 
-[sbox-dev_1Mc8djxfBo.mp4 1492x948](./images/cf51600c-93f0-4a11-b46d-d9df71dd0228.png)
+[sbox-dev_1Mc8djxfBo.mp4 1492x948](./images/sbox-dev-1mc8djxfbo.mp4)
 
 You can also create sub-tracks by right-clicking an existing track, and selecting the tracks you want from the context menu.
 
 
- ![](./images/271bebe9-c6b7-49a5-b5e3-e34a20dd0196.png " =613x212")
+ ![](./images/creating-tracks.png " =613x212")
 
 Sequence tracks are created automatically when you import a movie: either by right-clicking in the timeline, or through the file menu.
 
 
- ![](./images/e8057da3-2d17-411b-a933-9b43839c580a.png " =784x475")
+ ![](./images/creating-tracks-1.png " =784x475")
 
 # Next Steps
 

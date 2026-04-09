@@ -101,7 +101,7 @@ Fill the width of the editor with the widget and put the label above instead of 
 
 
 ## `[Validate( nameof( IsValid ), "Warning Message", LogLevel.Warn )]`
-n ![](./images/7bc1124c-5f49-4087-9833-40eb78a33238.png "right-50 =300x115")
+n ![](./images/validate-nameof-isvalid-warning-message-loglevel-warn.png "right-50 =300x115")
 
 Specifies a method in the same class to use for validation. The validation result will be shown in the inspector.
 

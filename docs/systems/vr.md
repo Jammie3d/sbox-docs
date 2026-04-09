@@ -11,7 +11,7 @@ updated: 2026-03-16
 
 **Editor:** Launch the editor with a headset connected. You'll see a VR button at the top right of your editor. It should be on by default.\n**Game:** If you have a VR headset plugged in and it's active, you'll launch in VR.
 
-# Components ![](./images/e3ec0390-f08f-4a87-8333-c22d4104eafb.png "right-50 =300x153")
+# Components ![](./images/enabling-vr.png "right-50 =300x153")
 
 * **VR Anchor**: locks the player's playspace to a GameObject's transform
 * **VR Tracked Object**: moves a GameObject's transform to a tracked device, e.g. a controller or headset
@@ -35,13 +35,13 @@ If you want your player to be able to move around, add the "VR Anchor" component
 
 The Target Eye represents the eye(s) that the camera can render to. A basic VR setup should have both Left and Right eye targets in order to display properly inside the headset.
 
- ![Click on this dropdown and check LeftEye and RightEye](./images/0c8cad28-fe2f-473f-a960-38a245b7208c.png " =448x325")
+ ![Click on this dropdown and check LeftEye and RightEye](./images/click-on-this-dropdown-and-check-lefteye-and-righteye.png " =448x325")
 
 ### Tracking
 
 A basic VR setup should also have a VR Tracked Object component on the camera, set up with the Head pose source, in order for the camera to follow the player's head movements.
 
- ![](./images/600c0d1a-d14c-4b87-8a3d-ca2721ed6ca0.png " =448x96")
+ ![](./images/tracking.png " =448x96")
 
 ## Input
 
@@ -51,7 +51,7 @@ On any object you want to track the player's controllers, add a VR Tracked Compo
 
 For example, this component will make the GameObject it's attached to follow the player's left controller:
 
- ![](./images/bfc60b10-7210-4952-b93d-25f6da8169e1.png)
+ ![](./images/tracking-1.png)
 
 # API
 

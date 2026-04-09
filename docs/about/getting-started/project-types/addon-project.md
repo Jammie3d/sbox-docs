@@ -23,12 +23,12 @@ You can't make addon projects that contain code yet - but you can use actiongrap
 In the project settings you're able to select the target game. If you change this game then you must restart the editor for the changes to apply.
 
 
- ![](./images/ec28abc3-f4bf-43f9-9379-5f37b68c00aa.png " =385x152")
+ ![](./images/game-target.png " =385x152")
 
 ## Publishing
 
 To publish something made in an Addon Project, you would find it in the asset browser and publish it from there.
 
- ![](./images/44918dee-b1c5-495f-ad94-07747d6d637c.png " =471x224")
+ ![](./images/publishing.png " =471x224")
 
 From there your map, or model, or whatever will get its own page on sbox.game, and you will be able to configure it.

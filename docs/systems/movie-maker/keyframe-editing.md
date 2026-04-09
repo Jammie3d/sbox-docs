@@ -7,7 +7,7 @@ updated: 2025-07-03
 
 # Keyframe Editing
 
-![](./images/508dd729-f740-4eea-9e29-389a94824451.png "right-50 =223x135")This is the simplest way to describe how stuff in your scene should animate. Create keyframes in property tracks that are snapshots for what values that track should have at specific times, then control how the track should blend between those values.
+![](./images/keyframe-editing.png "right-50 =223x135")This is the simplest way to describe how stuff in your scene should animate. Create keyframes in property tracks that are snapshots for what values that track should have at specific times, then control how the track should blend between those values.
 
 It will be active by default, but you can toggle it with the key-shaped button in the toolbar.
 
@@ -22,7 +22,7 @@ There's three ways to create a keyframe for a property track:
 
   \
 
-[sbox-dev_iAf40itXRB.mp4 1008x896](./images/982b6a59-ff9b-4add-9dcd-81ac69bc2788.png)
+[sbox-dev_iAf40itXRB.mp4 1008x896](./images/sbox-dev-iaf40itxrb.mp4)
 
 
 :::tip
@@ -40,12 +40,12 @@ Each keyframe can choose between three different interpolation modes:
 * Cubic - move along a smooth spline connecting keyframes
 
 
-[sbox-dev_6y9byeniJF.mp4 1008x896](./images/e7b43e8c-ee83-4270-8ede-456998247169.png)
+[sbox-dev_6y9byeniJF.mp4 1008x896](./images/sbox-dev-6y9byenijf.mp4)
 
 You can combine different modes for neighbouring keyframes to make animations ease in or out.
 
 
-[sbox-dev_ThsOOsr9bq.mp4 1008x896](./images/2d7c2b3a-4b73-4e56-8b0c-2df9e797fd02.png)
+[sbox-dev_ThsOOsr9bq.mp4 1008x896](./images/sbox-dev-thsoosr9bq.mp4)
 
 
 ## Automatic Track Creation
@@ -53,4 +53,4 @@ You can combine different modes for neighbouring keyframes to make animations ea
 For convenience, you can enable this mode to create tracks whenever you touch something in the scene. This helps the most when you're changing lots of properties on many objects, so you don't have to manually created dozens of tracks.
 
 
-[sbox-dev_yRfCXPdJl1.mp4 1482x896](./images/1962da73-e84b-48e6-a904-272034bf9617.png)
+[sbox-dev_yRfCXPdJl1.mp4 1482x896](./images/sbox-dev-yrfcxpdjl1.mp4)

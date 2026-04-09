@@ -45,7 +45,7 @@ It is important to note:
 
 Now that you've created the GameResource class, it should automatically be added to the "New" menu in the Asset Browser. If you didn't specify a Category, then it will show under "Other".
 
- ![](./images/f18f5bbb-0786-41f4-aeb9-f47ef4e91f39.png " =526x209")
+ ![](./images/creating-a-new-asset-for-your-gameresource.png " =526x209")
 
 # Accessing Assets
 

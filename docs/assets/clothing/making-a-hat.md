@@ -20,7 +20,7 @@ updated: 2025-01-24
 In this example, we are showing our process of creating and setting up Headphones.
 
 :::
- ![](./images/07f1b330-c98d-41c4-a47d-93cb0f457025.png " =1792x697")
+ ![](./images/making-hats-headwear.png " =1792x697")
 
 
 ---
@@ -59,7 +59,7 @@ We expect you to have knowledge on creating UVs. We are just showing examples of
 
 :::
 
- ![](./images/5fc3bf69-ee11-42aa-8d3d-468dc65347fb.png " =1905x1054")
+ ![](./images/uvs.png " =1905x1054")
 
 
 
@@ -81,7 +81,7 @@ We're not expecting you to dip your model in mud and stains, if you're making a 
 :::
 
 
- ![](./images/2c84c632-c225-4345-9549-545bcd833aa5.png " =856x369")
+ ![](./images/texturing.png " =856x369")
 
 
 We'd steer away from completely flat and undetailed textures, there'd be rare exceptions to this rule, all depending on the context / art-style of your asset.

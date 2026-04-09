@@ -38,7 +38,7 @@ public class MyRocketTool : EditorTool
 This will create a tool that you can select here.
 
 
- ![](./images/d4a85745-5a7d-491b-bf2c-31d16e37349c.png)
+ ![](./images/this-will-create-a-tool-that-you-can-select-here.png)
 
 # The Scene
 
@@ -106,4 +106,4 @@ public override void OnEnabled()
 
 The UI is created when the tool is activated, and destroyed when it's deactivated.
 
- ![](./images/1c34c993-ffc0-424b-9290-c951c28db69a.png)
+ ![](./images/the-ui-is-created-when-the-tool-is-activated-and-destroyed.png)

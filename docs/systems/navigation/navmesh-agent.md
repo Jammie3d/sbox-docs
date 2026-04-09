@@ -10,12 +10,12 @@ updated: 2025-10-23
 A NavMesh Agent will move from position to position on the NavMesh, automatically. It features crowd control features, so they will try to avoid bumping into each other if possible.
 
 
-[Crowd of agents moving to the same target. 1698x918](./images/4b9429ba-ae3d-4c4e-b255-6fa4115c31fb.png)
+[Crowd of agents moving to the same target. 1698x918](./images/crowd-of-agents-moving-to-the-same-target.mp4)
 
 
 # Component
 
- ![](./images/6e4e443c-19dd-4d97-aa63-9306a75781d7.png " =300x312")
+ ![](./images/component.png " =300x312")
 
 The NavMeshAgent is implemented as a component. When you add it to your GameObject it can take over control of the position and rotation.
 

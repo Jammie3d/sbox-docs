@@ -13,7 +13,7 @@ If your custom shader implements custom lighting you can sample the screen space
 float ScreenSpaceAmbientOcclusion::Sample( float4 ScreenPosition )
 ```
 
- ![](./images/32bf9e46-c7b3-4888-b22c-82addbb1182c.png) ![](./images/633aa24a-fee6-4c58-9b09-94f7ee88b476.png "right-50")
+ ![](./images/ssao.png) ![](./images/ssao-1.png "right-50")
 
 ## Custom Ambient Occlusion
 

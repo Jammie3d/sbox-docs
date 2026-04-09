@@ -35,7 +35,7 @@ Open your map or game package on sbox.game and go to `Configure > Edit Features`
 
 The daily estimates are visible on your Organization's Page, under `Monetization`.
 
- ![](./images/98c8c085-b8ae-41b5-8ea9-033ef709b1a2.png " =1503x821")
+ ![](./images/how-do-i-know-how-much-money-i-made.png " =1503x821")
 
 
 ### Am I allowed to enable it for my Package? What are the rules?

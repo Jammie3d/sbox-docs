@@ -7,13 +7,13 @@ updated: 2025-07-10
 
 # Sequences
 
-![](./images/f9a4cd6e-204a-413c-afb4-ec1a6605e417.png " =1057x241")
+![](./images/sequences-1.png " =1057x241")
 
 Sequence blocks are clips taken from other .movie assets. This helps you divide up big projects however you like: individual scenes, or individual actors in each scene can be grouped into their own .movie files. There's no limit to how deep you nest your sequences.
 
 Sequence blocks also give you a convenient way to edit your movie. You can move them around in the timeline, or clip their start and end times without editing raw track data. Multiple sequence blocks can reference the same source .movie, so you can edit down a long recording into just the action you need.
 
-#  ![](./images/b0c75e88-d4c1-47a4-a992-5bf4a1048bd5.png "left-50 =452x280")Creating Sequences
+#  ![](./images/sequences.png "left-50 =452x280")Creating Sequences
 
 Any project saved as a .movie resource (in the file menu) can be used as a sequence.
 
@@ -33,13 +33,13 @@ Both the file menu and timeline context menus have an *Import Movie* option. Aft
 Sequence blocks can be moved and resized with the mouse. Multi-selecting sequence blocks lets you move them together, and if their starts or ends align you can drag those together too.
 
 
-[sbox-dev_q8AjPLuIie.mp4 1056x338](./images/e564880f-2180-45bb-bb67-286864b6073e.png)
+[sbox-dev_q8AjPLuIie.mp4 1056x338](./images/sbox-dev-q8ajpluiie.mp4)
 
 Double-clicking on a sequence block will start editing the referenced movie, with the sequence block's time range highlighted in the timeline. The top of the track list will show you how the current project is nested, and you can return to outer movies by clicking them there.
 
 
- ![](./images/f93d70f5-39b5-40c5-8e4d-eaaf6d26427f.png " =805x304")
+ ![](./images/editing-sequence-blocks-1.png " =805x304")
 
-#  ![](./images/92a36c04-497e-45dd-8c4b-35a359b2203c.png "right-50 =260x144")Splitting Sequence Blocks
+#  ![](./images/editing-sequence-blocks.png "right-50 =260x144")Splitting Sequence Blocks
 
 Split a sequence block by right-clicking on it at the time you want to create the cut, then selecting *Split*. This will give you two blocks, which you can move and resize as you wish.

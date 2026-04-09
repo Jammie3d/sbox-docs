@@ -27,7 +27,7 @@ You can also choose between the default and outlined versions of glyphs, like so
 Texture JumpButton = Input.GetGlyph( "jump", true );
 ```
 
- ![PlayStation glyphs using the outline style](./images/c122f5bf-f2c4-4f97-a844-24e80dd03ef0.png " =2560x1277")
+ ![PlayStation glyphs using the outline style](./images/playstation-glyphs-using-the-outline-style.png " =2560x1277")
 
 To use these quickly and easily in razor, you can use the resulting texture directly in an <Image> panel:
 
@@ -38,6 +38,6 @@ To use these quickly and easily in razor, you can use the resulting texture dire
 
 **Examples**
 
- ![Hints using keyboard and mouse](./images/ea10e59f-7514-4d10-9825-cf9b6d415ef6.png " =480x270")
+ ![Hints using keyboard and mouse](./images/hints-using-keyboard-and-mouse.jpg " =480x270")
 
- ![Hints using an Xbox controller](./images/435d3a0b-30ec-4a28-ac53-2c981147383e.png " =480x242")
+ ![Hints using an Xbox controller](./images/hints-using-an-xbox-controller.jpg " =480x242")

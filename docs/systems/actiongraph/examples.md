@@ -11,7 +11,7 @@ Here's how to do some common things. Each has a code you can copy to your clipbo
 
 ## Loop Through Child Objects
 
- ![Uses For Each on the list of child objects, firing the Body signal on each child.](./images/b4b1cf8a-d32a-47eb-ac4b-a7f3733144e1.png " =879x")
+ ![Uses For Each on the list of child objects, firing the Body signal on each child.](./images/uses-for-each-on-the-list-of-child-objects-firing-the-body-s.png " =879x")
 
 ### Clipboard Code
 
@@ -22,7 +22,7 @@ actiongraph:H4sIAAAAAAAACp1UW0+DMBR+X7L/0OArQ5huGb4ZTcyi0SVeXoxZCpyxKrSkLWbLwn+3
 
 ## Move With Velocity
 
- ![Adds a velocity, multiplied by the time since the last frame, to the position of this game object.](./images/ab5b4c5e-d09e-4be4-9d8c-992b9c560e2d.png)
+ ![Adds a velocity, multiplied by the time since the last frame, to the position of this game object.](./images/adds-a-velocity-multiplied-by-the-time-since-the-last-frame.png)
 
 ### Clipboard Code
 

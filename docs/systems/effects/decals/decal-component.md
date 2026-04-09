@@ -9,7 +9,7 @@ updated: 2025-06-26
 
 The decal component draws a decal in the game world.
 
- ![](./images/6c3f3ca8-9699-447c-b656-3c9905caa9e5.png " =684x578")
+ ![](./images/decal-component.png " =684x578")
 
 
 The component is set up so you can create variety in your prefab decals without any extra coding. For example, you can define multiple DecalDefinitions and it'll choose one at random.

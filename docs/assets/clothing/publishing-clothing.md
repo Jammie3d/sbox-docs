@@ -23,29 +23,29 @@ Before anything, we want to make sure we have our correct files. We want our vmd
 :::
 
 
- ![](./images/a33761f1-afbf-486d-9fbb-26b838c543c9.png " =514x343")
+ ![](./images/breakdown-2.gif " =514x343")
 
 Right click in your folder - `New / Citizen / Clothing Definition` 
 
 
- ![](./images/f08b78c3-0b94-43ee-b444-2dd8652309f3.png " =514x626")
+ ![](./images/breakdown-5.gif " =514x626")
 
 Add your Vmdls, original Citizen model goes in 'Model'. Standard male human version goes in `Human Alt Model` and your Female human variation goes in the `Human Alt Female Model`. 
 
 ### 
 
 
- ![](./images/1536f684-dfd6-446f-b9c8-b98cc11e4b93.png " =599x244")
+ ![](./images/give-your-clothing-a-suitable-name-and-description-in-this.gif " =599x244")
 
 Give your Clothing a suitable name and description. In this example, we're making a Hat, so we set the category to `Hat` and we type *"**Hats"*** for the Sub Category. So it'll show up correctly in the character menu.
 
 
- ![](./images/d60405f9-d878-47e9-8cfe-ed119cefe724.png " =599x307")
+ ![](./images/give-your-clothing-a-suitable-name-and-description-in-this-1.gif " =599x307")
 
 In Icon, we can generate a thumbnail for our .clothing file. Since we're making a hat, we want the Mode set to `Head`, which will orient the camera on the head. `Save Icon to Disk` to generate and save your clothing Icon.
 
 
- ![](./images/8dc917ee-ab66-4d9e-bbc6-d187073027ce.png " =599x476")
+ ![](./images/in-icon-we-can-generate-a-thumbnail-for-our-clothing-file.gif " =599x476")
 
 We also want to set our Body Slots, for a Hat like a baseball cap that only covers to the top of the Head, we'd want to set it to *Slots Under* - `HeadTop`.
 
@@ -55,12 +55,12 @@ We also want to set our Body Slots, for a Hat like a baseball cap that only cove
 
 Here's some examples of clothing and their body slots.
 
- ![](./images/54b136c1-e594-4c39-9afc-ae676e4f6a5b.png " =1131x2302")
+ ![](./images/quick-guide-to-body-slots-1.png " =1131x2302")
 
 **Slots Under** is where shirts, trousers and shoes go, (Layer 1). Anything that fits over that would be **Slots Over**. This doesn't remove the Layer 1 clothing when selected, which would be for open jackets or vests; treat it as your Layer 2. 
 
 
- ![](./images/2e1c2a05-bbe0-45e9-8ac5-cfd6ac5859d5.png " =856x161")
+ ![](./images/quick-guide-to-body-slots.png " =856x161")
 
 
 :::info
@@ -105,34 +105,34 @@ Now let's publish our .Clothing file to sbox.game, where our clothing can be see
 ### Breakdown 
 
 
- ![](./images/8449fdbd-6e34-4f75-8d84-7efe9b08691d.png " =642x210")
+ ![](./images/breakdown-1.gif " =642x210")
 
 **Publish** your .Clothing file, and go to **Edit settings and Publish**
 
 
- ![](./images/ad611e91-d8dd-4791-b770-ec92318c39b1.png " =642x386")
+ ![](./images/breakdown-3.gif " =642x386")
 
 A new window will pop up, where you can set the title of your asset. Now we'll want to Create a **New Organisation**, or an existing one you may want to use. 
 
 
- ![](./images/25a8a4bc-8d82-4e37-9496-002c6042e20b.png " =642x478")
+ ![](./images/breakdown.gif " =642x478")
 
 When clicking **New Organisation**, you will be taken to the **s&box.game** website. Here we can create a new organisation.
 
 
- ![](./images/ef3c4b3b-5781-4af0-bb6e-39e31fb9a313.png " =642x386")
+ ![](./images/breakdown-4.gif " =642x386")
 
 When creating a new organisation, you may have to restart s&box and open the publishing window again for it to appear in the Organisation Ident drop down.
 
 Then you'll be able to add your organisation and press next to start **Uploading files and publish.** *Though the clothing won't be public just yet.*
 
 
- ![](./images/35737197-2756-459a-aa41-3ad8a44161bb.png " =685x412")
+ ![](./images/then-you-ll-be-able-to-add-your-organisation-and-press-next.gif " =685x412")
 
 Here we can edit the asset on **s&box.game** website, for any final changes.
 
 
- ![](./images/8549d037-41c5-4b64-8792-e8a8767461fa.png " =685x353")
+ ![](./images/here-we-can-edit-the-asset-on-s-box-game-website-for-an.png " =685x353")
 
 Here we add our appropriate title and description as well as relevant tags, you will want to add more that are specific to the theme of your clothing, `medieval` `metal` `armour`.
 

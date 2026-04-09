@@ -33,4 +33,4 @@ public static async Task WaitOne()
 ```
 
 
- ![Our custom "Add One" and "Wait One" nodes in the ActionGraph editor.](./images/1aac3a61-76b4-4666-bc7f-d440bede9562.png)
+ ![Our custom "Add One" and "Wait One" nodes in the ActionGraph editor.](./images/our-custom-add-one-and-wait-one-nodes-in-the-actiongraph-edi.png)

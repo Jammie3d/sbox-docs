@@ -7,7 +7,7 @@ updated: 2026-03-11
 
 # Terrain
 
-![](./images/f8a47d29-0a68-4e5b-9b9b-96724078af42.png " =1388x400")
+![](./images/terrain.png " =1388x400")
 
 The Terrain System allows you to create expansive outdoor environments quickly and easily in your scenes.
 

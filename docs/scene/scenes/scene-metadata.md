@@ -57,7 +57,7 @@ Now we can call `GetMetadata(key, fallback)` on any SceneFile, so let's create a
 ```
 
 
- ![](./images/f801d8c0-64d6-47e0-bfad-c0b38e402e7f.png " =1920x1080")
+ ![](./images/this-is-done-identically-to-scenefiles-if-we-had-an-enemyi.png " =1920x1080")
 
 ## Reading Prefab Metadata
 

@@ -17,7 +17,7 @@ For this reason you can spawn another instance of the game, which will join your
 To do this, click on the network status icon in the header bar, and select `Join via new instance.`
 
 
- ![](./images/83bb302b-ce74-4946-9fb4-74ea2471ca0f.png)
+ ![](./images/new-instance.png)
 
 
 A new instance of the game will appear and join your game.

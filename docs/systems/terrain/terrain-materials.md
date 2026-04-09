@@ -15,13 +15,13 @@ These are similar but different to standard Materials because Terrain uses speci
 
 The first Terrain Material you apply to a Terrain automatically becomes the base layer, and spreads over the whole landscape. You can then paint areas with other Terrain Materials blending them together.
 
- ![Grassy Terrain](./images/01f7e3b8-4154-4851-aeaf-0364c09684ff.png)
+ ![Grassy Terrain](./images/grassy-terrain.png)
 
 ## Creating Terrain Materials
 
 To create a new Terrain Material, select your Terrain GameObject and look at the Inspector, under Terrain Materials press `New Terrain Material…` Pick a save location and it will be automatically added to your Terrain Material list.
 
- ![](./images/6316d587-fb7f-44e1-9830-616c37b30c80.png)
+ ![](./images/creating-terrain-materials.png)
 
 A resource editor window will open allowing you to select and modify the properties of the Terrain Material.
 
@@ -42,7 +42,7 @@ There is a limit of 4 Terrain Materials currently, this is planned to be resolve
 ## Terrain Material Properties
 
 
- ![](./images/41ed6af7-3cee-4c4c-8772-09d290419ba8.png)
+ ![](./images/terrain-material-properties.png)
 
 This is where I describe each property in an overwhelming amount of detail.
 
@@ -50,6 +50,6 @@ This is where I describe each property in an overwhelming amount of detail.
 
 The first material is applied across the entire Terrain by default. You can paint subsequent Terrain Materials using the Paint Texture tool and selecting the Terrain Material in the list in the inspector.
 
- ![](./images/07f7a6ed-7475-43d9-afac-75c5858ac7d6.png)
+ ![](./images/painting-terrain-materials.png)
 
- ![](./images/d65100b1-6d22-4be4-9d61-492d02677bab.png)
+ ![](./images/painting-terrain-materials-1.png)

@@ -41,7 +41,7 @@ Input.AnalogLook // Joystick "look" input Vector3 (mouse look)
 
 You can customize the keys for your game in the Project Settings.
 
- ![](./images/f0287b96-c499-441c-90e0-fe76efe5494c.png)
+ ![](./images/custom-keys.png)
 
 
 ## Escape Key

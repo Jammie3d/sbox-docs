@@ -9,7 +9,7 @@ updated: 2025-04-30
 
 When creating your own Classes/Structs/Assets/ect, you'll sometimes want custom editors that pair with them. For example, a Gradient Editor so you can visually see what the Gradient looks like instead of editing the Gradient as if it were a Struct with a list of Colours.
 
- ![With a Custom Editor](./images/6e98c21d-19ab-4549-a0a7-9491b8710bf1.png "right-50 =342x87") ![Without a Custom Editor](./images/49d04ae1-47df-4935-b836-ec63c0e09c9c.png "left-50 =342x89")
+ ![With a Custom Editor](./images/with-a-custom-editor.png "right-50 =342x87") ![Without a Custom Editor](./images/without-a-custom-editor.png "left-50 =342x89")
 
 
 
@@ -51,7 +51,7 @@ public class MyCustomControlWidget : ControlObjectWidget
 }
 ```
 
- ![Now we have a Custom ControlWidget that looks and functions exactly as we want it to](./images/53c9d20a-6517-4849-8021-051f8b2dbf0d.png " =599x133")
+ ![Now we have a Custom ControlWidget that looks and functions exactly as we want it to](./images/now-we-have-a-custom-controlwidget-that-looks-and-functions.png " =599x133")
 
 You can also check for certain attributes, so you can have a custom Password string editor that only appears when you've added the \[Password\] attribute
 
@@ -144,4 +144,4 @@ public class CharacterInspector : Widget, IAssetInspector
 
 
 [Now we have a Custom Inspector whenever we select our Character Asset
- 670x382](./images/1b005573-0f4a-45e7-9efe-60d6e57175bb.png)
+ 670x382](./images/custom-inspector-character-asset.mp4)

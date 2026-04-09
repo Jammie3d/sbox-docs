@@ -7,7 +7,7 @@ updated: 2025-06-26
 
 # Lifetime
 
-![](./images/c60adeb0-1cd8-4214-921f-d3e6bbc927f2.png " =684x106")
+![](./images/lifetime.png " =684x106")
 
 
 The "life" properties on the decal component allow you to define how long it should live for. Any lifetime curve properties on the Decal will be played back using this time. You can randomise it to add variety.

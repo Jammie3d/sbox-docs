@@ -10,4 +10,4 @@ updated: 2025-06-15
 ActionGraphs let you throw together little scripts using nodes instead of code.
 
 
- ![An example ActionGraph that implements jumping and falling with gravity](./images/a9129ed2-fc05-4103-a2d7-17988b6c93cb.png)
+ ![An example ActionGraph that implements jumping and falling with gravity](./images/an-example-actiongraph-that-implements-jumping-and-falling-w.png)

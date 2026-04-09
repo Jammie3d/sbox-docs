@@ -13,7 +13,7 @@ Shader Graph is a visual scripting language that compiles to shader code. This i
 
 You can open the Editor by creating a new Shader Graph asset and double clicking on it. Upon opening it, you will be met with 4 main sections:
 
- ![](./images/6c8b213e-8b7e-46a2-9de1-7660a936054a.png " =1387x811")
+ ![](./images/shader-graph-editor.png " =1387x811")
 
 
 1. Preview - Where you can see your Shaders output update in real time. You can change the preview model/lighting to whatever you'd like.
@@ -27,7 +27,7 @@ Each tab can be dragged around and re-positioned however you'd like, so feel fre
 
 You can create any nodes that are available to you by simply right clicking anywhere in the Graph or by clicking and dragging nodes into the Graph from the Palette.
 
- ![](./images/2550c704-ee35-4fd6-b340-6d61dba5a06f.png "left-50 =171x380") ![](./images/314448b1-be5e-4bd4-a68e-22c8ec6b6746.png "left-50 =86x385")
+ ![](./images/creating-a-node.png "left-50 =171x380") ![](./images/creating-a-node-1.png "left-50 =86x385")
 
 
 
@@ -39,7 +39,7 @@ You can create any nodes that are available to you by simply right clicking anyw
 
 Each node has a certain amount of inputs and outputs, each with their own types which are color-coordinated to determine if the value is a vector and how many components it has.
 
- ![](./images/4316b255-eb91-4f59-8569-778fbbc68198.png " =240x144")
+ ![](./images/input-output-types-1.png " =240x144")
 
 * Float (Green) - A single floating-point value
 * Float2 (Purple) - A two-component vector (UV Coordinates, Screen Position)
@@ -48,7 +48,7 @@ Each node has a certain amount of inputs and outputs, each with their own types 
 
 Some nodes may output a different type given the input types, depending on how the node chooses to handle such a thing. 
 
- ![](./images/834afed9-ce98-4c58-aa94-6fed9b11d7e0.png "left-50 =257x159") ![](./images/028c962d-096e-4a65-b3c1-0a1330f3d858.png "left-50 =342x172")
+ ![](./images/input-output-types-2.png "left-50 =257x159") ![](./images/input-output-types.png "left-50 =342x172")
 
 
 
@@ -59,4 +59,4 @@ Notice how the Multiply node returns a green Float value by default (given it's 
 
 Once you have saved your Shader Graph, you'll see there is a compiled Shader file next to it, which can now be used as any other Shader when making a Material. You can also right click on it directly and select "Create Material" to instantly create a Material from it.
 
- ![](./images/b528b9c9-7888-4fb7-b879-3e04d052edce.png " =364x418")
+ ![](./images/creating-a-material.png " =364x418")

@@ -43,16 +43,22 @@ using ( undoScope.Push() )
 
 **However, these scopes will not capture anything yet.**
 
-You will have to **tell the scope what objects you are about to modify**.\nTo ensure the best performance you should keep the set of captured objects as small as possible.
+You will have to **tell the scope what objects you are about to modify**.
+To ensure the best performance you should keep the set of captured objects as small as possible.
 
 ## GameObjects
 
-To capture GameObject changes use `undoScope.WithGameObjectChanges()`.\nYou also have to specify what part of the GameObject(s) you you would like to capture.
+To capture GameObject changes use `undoScope.WithGameObjectChanges()`.
+You also have to specify what part of the GameObject(s) you you would like to capture.
 
-* `GameObjectUndoFlags.Properties`\nIs always enabled and captures basic properties of the object (Parent, Transform, Name…)
-* `GameObjectUndoFlags.Components`\nCaptures the components list of the object
-* `GameObjectUndoFlags.Children`\nCaptures all children of the object, this can become very expensive for complex scene hierarchies, so use it only if you have to.
-* `GameObjectUndoFlags.All`\nShortcut to capture everything
+* `GameObjectUndoFlags.Properties`
+Is always enabled and captures basic properties of the object (Parent, Transform, Name…)
+* `GameObjectUndoFlags.Components`
+Captures the components list of the object
+* `GameObjectUndoFlags.Children`
+Captures all children of the object, this can become very expensive for complex scene hierarchies, so use it only if you have to.
+* `GameObjectUndoFlags.All`
+Shortcut to capture everything
 
   \
 

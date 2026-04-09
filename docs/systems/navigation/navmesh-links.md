@@ -24,7 +24,9 @@ By default agents will linearly interpolate between start/end locations to trave
 
 ![Default traversal, agent's simply "fly" across the links. 1698x922](./images/default-traversal-agent-s-simply-fly-across-the-links.mp4)
 
-We provide virtual functions you can override and events you can subscribe to in order to be informed about agent traversal.\n\nCustom NavMeshLinkComponent:
+We provide virtual functions you can override and events you can subscribe to in order to be informed about agent traversal.
+
+Custom NavMeshLinkComponent:
 
 ```csharp
 public sealed class CustomLink : NavMeshLink
@@ -59,7 +61,10 @@ public class NavMeshAgent
 
 ## Custom Links
 
-In most cases the default traversal wont suffice. You will likely want to move the game object from start to end differently depending on the link that is being traversed.\n\nIf you want to handle the traversal yourself you first need to disable the default traversal on the agent.\n
+In most cases the default traversal wont suffice. You will likely want to move the game object from start to end differently depending on the link that is being traversed.
+
+If you want to handle the traversal yourself you first need to disable the default traversal on the agent.
+
 
 ```csharp
 Agent.AutoTraverseLinks = false;
@@ -108,7 +113,9 @@ public record struct LinkTraversalData
 ```
 
 
-In this example we crate a custom link component that overrides `OnLinkEntered`. The component then drives a simple parabolic jump for the agent using the data from `Agent.CurrentLinkTraversal`.\n\nNote, how we manually update the Agents position every frame using `Agent.SetAgentPosition()`.
+In this example we crate a custom link component that overrides `OnLinkEntered`. The component then drives a simple parabolic jump for the agent using the data from `Agent.CurrentLinkTraversal`.
+
+Note, how we manually update the Agents position every frame using `Agent.SetAgentPosition()`.
 
 ```csharp
 public sealed class JumpLink : NavMeshLink
@@ -240,9 +247,15 @@ public sealed class LadderLink : NavMeshLink
 You can also let the physics system drive the jump for you.
 
 
-For this one we will switch it up and implement the traversal on the agent rather than the link.\nWe create a new component that we will attach to the GameObject our NavMeshAgent is on.\nIn addition, we will also need a RigidBody and Collider.\n
+For this one we will switch it up and implement the traversal on the agent rather than the link.
+We create a new component that we will attach to the GameObject our NavMeshAgent is on.
+In addition, we will also need a RigidBody and Collider.
 
-To perform a jump we simply apply a velocity to the RigidBody.\nPhysics jumps are usually hard to get right consistently, because they can fail in the same way a player jump can fail.\nFor example, jump was initiated to early/late or the jump was blocked by something mid air.\n
+
+To perform a jump we simply apply a velocity to the RigidBody.
+Physics jumps are usually hard to get right consistently, because they can fail in the same way a player jump can fail.
+For example, jump was initiated to early/late or the jump was blocked by something mid air.
+
 
 ```csharp
 public sealed class NavigationLinkTraversal : Component

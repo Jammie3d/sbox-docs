@@ -9,7 +9,8 @@ updated: 2026-03-16
 
 # Enabling VR
 
-**Editor:** Launch the editor with a headset connected. You'll see a VR button at the top right of your editor. It should be on by default.\n**Game:** If you have a VR headset plugged in and it's active, you'll launch in VR.
+**Editor:** Launch the editor with a headset connected. You'll see a VR button at the top right of your editor. It should be on by default.
+**Game:** If you have a VR headset plugged in and it's active, you'll launch in VR.
 
 # Components ![](./images/enabling-vr.png)
 

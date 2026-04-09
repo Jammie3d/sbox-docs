@@ -7,7 +7,8 @@ updated: 2024-11-08
 
 # Scene Metadata
 
-You can implement the `ISceneMetadata` interface in any Component that has data you'd like saved to Metadata. Metadata is data that can be accessed without needing to load a Scene or clone a Prefab\n(accessed via either the `SceneFile` or `PrefabFile`)
+You can implement the `ISceneMetadata` interface in any Component that has data you'd like saved to Metadata. Metadata is data that can be accessed without needing to load a Scene or clone a Prefab
+(accessed via either the `SceneFile` or `PrefabFile`)
 
 ## Component Example
 

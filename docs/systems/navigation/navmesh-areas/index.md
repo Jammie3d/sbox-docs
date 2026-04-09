@@ -7,7 +7,8 @@ updated: 2025-10-29
 
 # NavMesh Areas
 
-NavNesh Areas can affect NavNesh generation and agent behavior/pathing.\n ![](./images/navmesh-areas-2.png)The NavMeshArea component is used to define the location, shape and type of an area.
+NavNesh Areas can affect NavNesh generation and agent behavior/pathing.
+ ![](./images/navmesh-areas-2.png)The NavMeshArea component is used to define the location, shape and type of an area.
 
 ![](./images/navmesh-areas-1.png)
 

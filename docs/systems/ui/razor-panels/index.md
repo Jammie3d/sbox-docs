@@ -145,8 +145,11 @@ The example above will update the Slider when IntValue changes, and IntValue whe
 
 ## Differences between Panel and PanelComponent
 
-Since a Panel is not a Component, you cannot override `OnStart`, `OnUpdate`, ect.\nInstead Panel has `OnAfterTreeRender(bool firstTime)` and `Tick()`.
+Since a Panel is not a Component, you cannot override `OnStart`, `OnUpdate`, ect.
+Instead Panel has `OnAfterTreeRender(bool firstTime)` and `Tick()`.
 
-Since PanelComponent is not a Panel, you have to access it's Panel via the [PanelComponent.Panel](https://sbox.game/api/Sandbox.PanelComponent/Panel) accessor.\nThis means where you can do `Style.Left = Length.Auto` on a Panel, you have to do\n`Panel.Style.Left = Length.Auto` on a PanelComponent.
+Since PanelComponent is not a Panel, you have to access it's Panel via the [PanelComponent.Panel](https://sbox.game/api/Sandbox.PanelComponent/Panel) accessor.
+This means where you can do `Style.Left = Length.Auto` on a Panel, you have to do
+`Panel.Style.Left = Length.Auto` on a PanelComponent.
 
 This also means you cannot do `<MyPanelComponent />` within another Panel/PanelComponent, they must be added to a GameObject with a ScreenPanel or WorldPanel.

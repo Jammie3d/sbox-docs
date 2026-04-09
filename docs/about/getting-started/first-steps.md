@@ -41,7 +41,11 @@ Click a scene to enter it, have a play around, press escape to return to the mai
 So here's what you just saw. The menu uses our UI system, which is like HTML with c# inside. It's basically blazor, if you've ever heard of that.
 
 
-When you clicked on a title, you entered a Scene. Our engine is Scene based, rather than map based like the regular Source Engine. Scenes are json files on disk, and are very fast to load and switch between - just like you experienced.\n\nYou probably saw a bunch of cool stuff. Here's some else cool, you can [download the source for that game here](https://github.com/Facepunch/sbox-scenestaging), which includes all the scenes. Once you download it just open the .sbproj file to open it in the s&box editor, then explore the different scenes in the Asset Browser.\n\nYou can edit the scenes and play with them locally to get a feel of how things work.
+When you clicked on a title, you entered a Scene. Our engine is Scene based, rather than map based like the regular Source Engine. Scenes are json files on disk, and are very fast to load and switch between - just like you experienced.
+
+You probably saw a bunch of cool stuff. Here's some else cool, you can [download the source for that game here](https://github.com/Facepunch/sbox-scenestaging), which includes all the scenes. Once you download it just open the .sbproj file to open it in the s&box editor, then explore the different scenes in the Asset Browser.
+
+You can edit the scenes and play with them locally to get a feel of how things work.
 
 :::
 

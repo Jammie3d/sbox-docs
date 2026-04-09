@@ -46,7 +46,8 @@ You can customize the keys for your game in the Project Settings.
 
 ## Escape Key
 
-By default, s&box will show the pause menu when a player presses the ESC key in-game.\nYou can override this functionality:
+By default, s&box will show the pause menu when a player presses the ESC key in-game.
+You can override this functionality:
 
 ```javascript
 // In Update() on one of your components
@@ -58,4 +59,3 @@ if ( Input.EscapePressed )
 ```
 
 If you override the escape button it'll be up to you to let the user access settings etc in your own menu system.
-n

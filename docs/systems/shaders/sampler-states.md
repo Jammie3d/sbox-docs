@@ -9,7 +9,8 @@ updated: 2024-03-26
 
 Sampler states control how textures are sampled in shaders, how they're filtered and addressed.
 
-Modern GPUs allow binding of 128 textures in a shader, however you are limited to only 16 bound samplers.\nThis is generally more than enough if you reuse samplers for multiple textures.
+Modern GPUs allow binding of 128 textures in a shader, however you are limited to only 16 bound samplers.
+This is generally more than enough if you reuse samplers for multiple textures.
 
 Sampler states are defined as you normally would in HLSL, but should be annotated with the desired options.
 

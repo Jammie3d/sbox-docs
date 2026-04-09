@@ -19,7 +19,8 @@ It is common to have a file system like this:
 * Health.razor.scss
 
 
-If you do this, the scss file is automatically included by your Health.razor panel.\n
+If you do this, the scss file is automatically included by your Health.razor panel.
+
 
 :::
 

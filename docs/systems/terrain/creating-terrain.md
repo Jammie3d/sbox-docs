@@ -7,7 +7,9 @@ updated: 2024-07-19
 
 # Creating Terrain
 
-To add Terrain to your Scene, right click in the Hierarchy and select 3D Object → Terrain from the menu.\nThe Terrain inspector will then prompt you to create, import or link an existing Terrain asset.\n
+To add Terrain to your Scene, right click in the Hierarchy and select 3D Object → Terrain from the menu.
+The Terrain inspector will then prompt you to create, import or link an existing Terrain asset.
+
 
 ![](./images/creating-terrain.png)
 

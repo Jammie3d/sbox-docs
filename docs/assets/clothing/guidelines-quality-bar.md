@@ -168,7 +168,8 @@ Like with triangle counts, higher numbers aren't always better! The more you can
 ## Shaders & Material Editor 🕶️
 
 
-For clothing, you'll only need to use the **Complex** shader. As this is our standard shader which we use for most assets.\n ![](./images/shaders-material-editor-1.png)
+For clothing, you'll only need to use the **Complex** shader. As this is our standard shader which we use for most assets.
+ ![](./images/shaders-material-editor-1.png)
 
 We use the Complex shader to plug in our textures.
 

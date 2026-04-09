@@ -21,7 +21,8 @@ If there's an API you need access to that isn't in the whitelist and you believe
 
 ## Reporting a Vulnerability
 
-As bugs in this system represent serious security issues, please report discoveries as described [here](https://facepunch.com/security).\n***Do not report them publicly***.
+As bugs in this system represent serious security issues, please report discoveries as described [here](https://facepunch.com/security).
+***Do not report them publicly***.
 
 
 ## Cheat Sheet

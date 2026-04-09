@@ -39,7 +39,8 @@ Instances can be drawn manually in C# with: `Graphics.DrawModelInstanced( Model,
 
 ## Procedural Instancing
 
-Procedural instancing is useful for programmatic shaders that are to be invoked from C# or indirectly.\nNo transforms are passed only the count of instance ids, you would derive some form of transform yourself from them within the shader.
+Procedural instancing is useful for programmatic shaders that are to be invoked from C# or indirectly.
+No transforms are passed only the count of instance ids, you would derive some form of transform yourself from them within the shader.
 
 You can get the instance id from SV_InstanceID in your vertex function.
 

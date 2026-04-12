@@ -92,7 +92,8 @@ Indicates that an enum can be treated as a set of flags. Allows for selecting mu
 
 ## `[InlineEditor]`
 
-Tell the editor to try to display inline editing for this property, rather than hiding it behind a popup.\n(useful for custom Classes/Structs)
+Tell the editor to try to display inline editing for this property, rather than hiding it behind a popup.
+(useful for custom Classes/Structs)
 
 
 ## `[WideMode]`
@@ -101,7 +102,7 @@ Fill the width of the editor with the widget and put the label above instead of 
 
 
 ## `[Validate( nameof( IsValid ), "Warning Message", LogLevel.Warn )]`
-n ![](./images/7bc1124c-5f49-4087-9833-40eb78a33238.png "right-50 =300x115")
+![](./images/validate-nameof-isvalid-warning-message-loglevel-warn.png)
 
 Specifies a method in the same class to use for validation. The validation result will be shown in the inspector.
 

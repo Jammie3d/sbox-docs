@@ -15,11 +15,11 @@ When you modify a property, add a component, or change the hierarchy of a prefab
 
 In the scene hierarchy, prefab instances with overrides are clearly marked to show their modified state.
 
- ![](./images/ec8022c1-c396-4aaf-8ca2-6eba31fbf1e1.png " =353x365")
+![](./images/visual-indicators-1.png)
 
 Overridden properties and components are highlighted in the inspector, making it easy to see what's been customized on each instance.
 
- ![](./images/3f7b3afe-3db2-461b-8705-ed538200fa1e.png " =431x928")
+![](./images/visual-indicators.png)
 
 # Types of Overrides
 
@@ -27,28 +27,28 @@ Overridden properties and components are highlighted in the inspector, making it
 
 Change any property value on GameObjects or Components within the prefab instance. Position, rotation, scale, component properties, and GameObject settings can all be overridden.
 
- ![](./images/12fecea3-5c44-4d61-a8d2-27471b7de65d.png " =420x217")
+![](./images/property-overrides.png)
 
 ## Component Additions
 
 Add new components to GameObjects within the prefab instance. These components only exist on this specific instance.
 
- ![](./images/a19ff92c-bd82-48b9-9c7f-13c18961fb5d.png " =422x232")
+![](./images/component-additions.png)
 
 ## GameObject Additions
 
 Add new child GameObjects to the prefab instance hierarchy. These children are unique to this instance.
 
- ![](./images/c319b278-24c8-4128-871c-3736269185ee.png " =343x26")
+![](./images/gameobject-additions.png)
 
 # Managing Overrides
 
 The inspector and scene hierarchy provides controls to manage overrides on individual properties and objects:
 
- ![](./images/b77f68a2-8565-41f6-9bb1-094a453ef36f.png " =646x448")
+![](./images/managing-overrides-1.png)
 
 
- ![](./images/163e2024-dff8-40b8-b582-4f4dcaa48b6b.png " =613x230")
+![](./images/managing-overrides.png)
 
 ## Reverting Overrides
 
@@ -62,6 +62,6 @@ To make your instance changes permanent, right-click and select `Apply to Prefab
 
 When working with prefabs that contain other prefabs (nested prefabs), overrides work hierarchically. Changes to nested prefab instances are stored on the outermost prefab instance.
 
- ![](./images/ed67ca94-9c3c-47ac-9876-0397b991495c.png " =335x78")
+![](./images/nested-prefabs.png)
 
 This ensures that all override data is centralized and properly managed even in complex prefab hierarchies.

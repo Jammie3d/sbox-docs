@@ -7,7 +7,8 @@ updated: 2026-03-04
 
 # Unit Tests
 
-If you add a  `UnitTests`  directory to your project folder, we will automatically generate a Unit Test project for you.\nIn order for the project to be generated you need to restart your editor if you have it open.
+If you add a  `UnitTests`  directory to your project folder, we will automatically generate a Unit Test project for you.
+In order for the project to be generated you need to restart your editor if you have it open.
 
 ## Your First Test
 

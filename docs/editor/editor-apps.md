@@ -32,4 +32,4 @@ public class MyEditorApp : Window
 The app will be available on the App sidebar and the Apps menu.
 
 
- ![](./images/24228dd7-08e9-4115-8022-df7d4fa5b0ce.png)
+![](./images/the-app-will-be-available-on-the-app-sidebar-and-the-apps-me.png)

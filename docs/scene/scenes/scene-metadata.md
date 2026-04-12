@@ -7,7 +7,8 @@ updated: 2024-11-08
 
 # Scene Metadata
 
-You can implement the `ISceneMetadata` interface in any Component that has data you'd like saved to Metadata. Metadata is data that can be accessed without needing to load a Scene or clone a Prefab\n(accessed via either the `SceneFile` or `PrefabFile`)
+You can implement the `ISceneMetadata` interface in any Component that has data you'd like saved to Metadata. Metadata is data that can be accessed without needing to load a Scene or clone a Prefab
+(accessed via either the `SceneFile` or `PrefabFile`)
 
 ## Component Example
 
@@ -57,7 +58,7 @@ Now we can call `GetMetadata(key, fallback)` on any SceneFile, so let's create a
 ```
 
 
- ![](./images/f801d8c0-64d6-47e0-bfad-c0b38e402e7f.png " =1920x1080")
+![](./images/this-is-done-identically-to-scenefiles-if-we-had-an-enemyi.png)
 
 ## Reading Prefab Metadata
 

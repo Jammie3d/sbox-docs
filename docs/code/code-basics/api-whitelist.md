@@ -16,12 +16,13 @@ Editor code, including libraries, doesn't have to follow these restrictions. If 
 
 ## Reporting a False Positive
 
-If there's an API you need access to that isn't in the whitelist and you believe it's harmless, please report it on our [issue tracker](https://github.com/Facepunch/sbox-issues/issues) with your reasoning, and we'll review it. Please include the symbol as it appears in the error.
+If there's an API you need access to that isn't in the whitelist and you believe it's harmless, please report it on our [issue tracker](https://github.com/Facepunch/sbox-public/issues) with your reasoning, and we'll review it. Please include the symbol as it appears in the error.
 
 
 ## Reporting a Vulnerability
 
-As bugs in this system represent serious security issues, please report discoveries as described [here](https://facepunch.com/security).\n***Do not report them publicly***.
+As bugs in this system represent serious security issues, please report discoveries as described [here](https://facepunch.com/security).
+***Do not report them publicly***.
 
 
 ## Cheat Sheet
@@ -33,4 +34,4 @@ Here are some of the common ones to help new devs. Check out our full API refere
 | ❌ Not allowed | ✅ Allowed |
 |---------------|-----------|
 | `Console.Log` | Use `Log.Info` as a drop-in replacement. |
-| `System.IO*`  | Most standard .NET IO isn't allowed, but you can use our [Filesystem](https://sbox.game/dev/doc/systems/file-system/) API for storage of user data. |
+| `System.IO*`  | Most standard .NET IO isn't allowed, but you can use our [Filesystem](https://sbox.game/dev/doc/assets/file-system/) API for storage of user data. |

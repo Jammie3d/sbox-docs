@@ -9,9 +9,9 @@ updated: 2025-01-14
 
 ## First time Opening S&box 📦
 
-[ 1280x720](./images/e64ec000-0b7a-4e14-b1f6-9c6893aacdd6.png)
+![Opening S&box for first time](./images/first-time-setup.mp4)
 
- ![](./images/6f8d9692-1a44-4171-875e-971d349ad2ab.png "left-50 =535x359")
+![](./images/first-time-opening-s-box-1.png)
 
 Open S&box and make a new project. You can select 'Addon' as your template since we're only going to publish a model.
 
@@ -19,7 +19,7 @@ Open S&box and make a new project. You can select 'Addon' as your template since
 
 
 
- ![](./images/4f4c53fc-ca9f-41f4-8c13-fa26c376b11f.png "left-50 =241x228")
+![](./images/first-time-opening-s-box.png)
 
 Make sure to turn on *'Show Base Content'*. This will allow you to see important 'core' folders and files in the asset browser, which you will be using during the clothing creation process.
 
@@ -38,14 +38,14 @@ You will **never** need to add or adjust files within the core folders (e.g. the
 ## Grabbing Citizen Files 🤏
 
 
-[setup2.mp4 1280x720](./images/ac3fd166-4c4b-48a3-aafc-c2e87c89b2d6.png)
+![Locating citizen asset files](./images/docs/assets/clothing/images/grab-files.mp4)
 
 Find useful files in `Steam\steamapps\common\sbox\addons\citizen\Assets\models\citizen`
 
 In that folder can use `citizen_REF.fbx`, which supplies you with the citizen mesh and simple rig. 
 
 
- ![](./images/5c2c047d-8582-49f2-b4e6-69819fca6039.png " =1771x1172")
+![](./images/grabbing-citizen-files.png)
 
 
 :::info
@@ -72,7 +72,7 @@ We also have the `citizen_human_male_REF` and `citizen_human_female_REF`  which 
 These can be found in `sbox\game\addons\citizen\Assets\models\citizen_human`. 
 
 
- ![](./images/71c84839-d790-4289-a518-26b16c652483.png " =856x590")
+![](./images/grabbing-human-files.png)
 
 
 ---
